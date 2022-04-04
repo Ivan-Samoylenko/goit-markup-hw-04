@@ -22,7 +22,7 @@
 
 /* page */
 body {
-  font-family: roboto, sans-serif;
+  font-family: 'roboto', sans-serif;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -141,7 +141,7 @@ img {
 .logo {
   display: block;
 
-  font-family: raleway;
+  font-family: 'raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
