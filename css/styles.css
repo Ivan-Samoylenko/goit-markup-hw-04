@@ -19,6 +19,7 @@
   --header-border-color: #ececec;
   --portfolio-card-border-color: #eeeeee;
   --icon-primary-color: #afb1b8;
+  --icon-secondary-color: rgba(255, 255, 255, 0.1);
 }
 
 /* page */
@@ -137,6 +138,36 @@ img {
 .button.secondary:focus {
   background-color: var(--accent-color);
   color: var(--white-primary-color);
+}
+
+/* ============ */
+/* social ocons */
+/* ============ */
+
+.socials {
+  display: flex;
+  align-items: center;
+}
+
+.socials > .social-item + .social-item {
+  margin-left: 10px;
+}
+
+.socials-icon-thumb {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials-icon-thumb > .icon {
+  fill: currentColor;
+}
+
+.socials-icon-thumb:hover>.icon {
+  fill: var(--white-primary-color);
 }
 
 /* ==== */
@@ -269,6 +300,16 @@ img {
   background-color: var(--grey-footer-color);
 }
 
+.footer .flex {
+  display: flex;
+  align-items: center;
+}
+
+.footer .footer-item + .footer-item {
+  margin-left: 30px;
+}
+
+/* logo nad address */
 .footer .logo {
   margin-bottom: 20px;
 }
@@ -296,6 +337,25 @@ img {
 .address-nav .contacts:hover,
 .address-nav .contacts:focus {
   color: var(--accent-color);
+}
+
+/* call to active and socials */
+.cta {
+  margin-bottom: 20px;
+  display: block;
+
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--white-primary-color);
+}
+
+.footer-socials .socials-icon-thumb {
+  background-color: var(--icon-secondary-color);
+  color: var(--white-primary-color);
+}
+
+.footer-socials .socials-icon-thumb:hover {
+  background-color: var(--accent-color);
 }
 
 /* ======================== */
@@ -429,34 +489,13 @@ img {
   margin-bottom: 16px;
 }
 
-.team-socials {
-  display: flex;
-  align-items: center;
-}
-
-.team-socials > .item + .item {
-  margin-left: 10px;
-}
-
-.socials-icon-thumb {
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
+/* team socials */
 .socials-icon-thumb:hover {
   background-color: var(--accent-color);
 }
 
-.socials-icon-thumb > .icon {
-  fill: var(--icon-primary-color);
-}
-
-.socials-icon-thumb:hover > .icon {
-  fill: var(--white-primary-color);
+.team-socials .socials-icon-thumb {
+  color: var(--icon-primary-color);
 }
 
 /* regular customers */
