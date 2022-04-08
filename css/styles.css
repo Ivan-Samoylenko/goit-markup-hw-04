@@ -232,12 +232,25 @@ img {
 }
 
 .contacts-nav .link {
+  display: flex;
+  align-items: center;
+
   color: var(--grey-primary-color);
 }
 
 .contacts-nav .link:hover,
 .contacts-nav .link:focus {
   color: var(--accent-color);
+}
+
+.contacts-nav .icon-thumb {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.contacts-nav .icon {
+  fill: currentColor;
 }
 
 /* ============== */
