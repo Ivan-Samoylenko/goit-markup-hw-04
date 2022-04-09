@@ -20,6 +20,8 @@
   --portfolio-card-border-color: #eeeeee;
   --icon-primary-color: #afb1b8;
   --icon-secondary-color: rgba(255, 255, 255, 0.1);
+  /* gradient */
+  --hero-background-gradient: rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4);
 }
 
 /* page */
@@ -393,7 +395,7 @@ img {
 
   text-align: center;
   background-color: var(--grey-footer-color);
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+  background-image: linear-gradient(var(--hero-background-gradient)),
                     url(../images/bcg-hero.jpg);
   background-size: cover;
   background-position: center;
