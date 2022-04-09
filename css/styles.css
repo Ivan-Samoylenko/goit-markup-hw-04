@@ -45,7 +45,7 @@ img {
   padding-right: var(--container-indent);
 }
 
-/* delete list marks */
+/* delete list marks, margins and padding */
 .list {
   margin-top: 0;
   margin-bottom: 0;
@@ -96,6 +96,10 @@ img {
   overflow: hidden;
 }
 
+/* =========== */
+/* END general */
+/* =========== */
+
 /* ======= */
 /* buttons */
 /* ======= */
@@ -140,6 +144,10 @@ img {
   color: var(--white-primary-color);
 }
 
+/* =========== */
+/* END buttons */
+/* =========== */
+
 /* ============ */
 /* social ocons */
 /* ============ */
@@ -165,6 +173,10 @@ img {
 .socials-icon-thumb > .icon {
   fill: currentColor;
 }
+
+/* ================ */
+/* END social ocons */
+/* ================ */
 
 /* ==== */
 /* logo */
@@ -193,6 +205,10 @@ img {
 .logo:hover > .logo-footer {
   color: var(--accent-color);
 }
+
+/* ======== */
+/* END logo */
+/* ======== */
 
 /* ============== */
 /* header of page */
@@ -285,6 +301,10 @@ img {
   fill: currentColor;
 }
 
+/* ================== */
+/* END header of page */
+/* ================== */
+
 /* ============== */
 /* footer of page */
 /* ============== */
@@ -354,11 +374,15 @@ img {
   background-color: var(--accent-color);
 }
 
+/* ================== */
+/* END footer of page */
+/* ================== */
+
 /* ======================== */
 /* studio page main content */
 /* ======================== */
 
-/* hero */
+/* block hero */
 .hero {
   max-width: 1600px;
   max-height: 600px;
@@ -387,8 +411,9 @@ img {
   text-transform: uppercase;
   color: var(--white-primary-color);
 }
+/* END block hero */
 
-/* features */
+/* section features */
 .features-list {
   margin-top: calc(-1 * var(--gutter));
   margin-left: calc(-1 * var(--gutter));
@@ -427,8 +452,9 @@ img {
   margin-top: 0;
   margin-bottom: 0;
 }
+/* END section features */
 
-/* what we do */
+/* section what we do */
 .works {
   margin-top: calc(-1 * var(--gutter));
   margin-left: calc(-1 * var(--gutter));
@@ -440,9 +466,9 @@ img {
   margin-top: var(--gutter);
   margin-left: var(--gutter);
 }
+/* END section what we do */
 
-
-/* our team */
+/* section our team */
 .team-list {
   margin-top: calc(-1 * var(--gutter));
   margin-left: calc(-1 * var(--gutter));
@@ -486,7 +512,6 @@ img {
 }
 
 /* team socials */
-
 .team-socials .socials-icon-thumb {
   color: var(--icon-primary-color);
 }
@@ -495,9 +520,9 @@ img {
   background-color: var(--accent-color);
   color: var(--white-primary-color);
 }
+/* END section our team */
 
-/* regular customers */
-
+/* section regular customers */
 .customers {
   display: flex;
 }
@@ -529,7 +554,11 @@ img {
 .company-icon-thumb:hover > .icon {
   fill: var(--accent-color);
 }
+/* END section regular customers */
 
+/* ============================ */
+/* END studio page main content */
+/* ============================ */
 
 /* =========================== */
 /* portfolio page main content */
@@ -590,3 +619,7 @@ img {
   line-height: 1.88;
   color: var(--grey-primary-color);
 }
+
+/* =============================== */
+/* END portfolio page main content */
+/* =============================== */
