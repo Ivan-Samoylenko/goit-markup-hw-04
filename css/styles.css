@@ -166,10 +166,6 @@ img {
   fill: currentColor;
 }
 
-.socials-icon-thumb:hover>.icon {
-  fill: var(--white-primary-color);
-}
-
 /* ==== */
 /* logo */
 /* ==== */
@@ -490,12 +486,14 @@ img {
 }
 
 /* team socials */
-.socials-icon-thumb:hover {
-  background-color: var(--accent-color);
-}
 
 .team-socials .socials-icon-thumb {
   color: var(--icon-primary-color);
+}
+
+.team-socials .socials-icon-thumb:hover {
+  background-color: var(--accent-color);
+  color: var(--white-primary-color);
 }
 
 /* regular customers */
