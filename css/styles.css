@@ -39,6 +39,10 @@ img {
   display: block;
 }
 
+svg {
+  display: block;
+}
+
 .container {
   max-width: var(--container-width);
   margin-left: auto;
@@ -294,8 +298,8 @@ img {
 }
 
 .contacts-nav .icon-thumb {
-  width: 16px;
-  height: 16px;
+  /* width: 16px;
+  height: 16px; */
   margin-right: 10px;
 }
 
