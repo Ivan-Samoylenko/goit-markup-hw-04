@@ -615,14 +615,15 @@ svg {
 
 .portfolio-list .link {
   display: block;
-
-  border-width: 1px;
-  border-style: solid;
-  border-color: var(--portfolio-card-border-color);
 }
 
 .portfolio-list .image-caption {
   padding: 20px 24px;
+
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--portfolio-card-border-color);
+  border-top: none;
 }
 
 .portfolio-list .title {
