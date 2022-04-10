@@ -119,6 +119,7 @@ svg {
   background-color: var(--white-primary-color);
   color: var(--black-logo-color);
   cursor: pointer;
+  outline: none;
 }
 
 /* primary */
@@ -247,11 +248,6 @@ svg {
   letter-spacing: 0.02em;
 }
 
-.site-nav .link,
-.contacts-nav .link {
-  display: block;
-}
-
 /* site nav */
 .site-nav {
   margin-left: 93px;
@@ -263,6 +259,7 @@ svg {
 }
 
 .site-nav .link {
+  display: block;
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -290,6 +287,8 @@ svg {
 .contacts-nav .link {
   display: flex;
   align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
 
   color: var(--grey-primary-color);
 }
@@ -300,8 +299,8 @@ svg {
 }
 
 .contacts-nav .icon-thumb {
-  /* width: 16px;
-  height: 16px; */
+  width: 16px;
+  height: 16px;
   margin-right: 10px;
 }
 
@@ -376,9 +375,11 @@ svg {
 .footer-socials .socials-icon-thumb {
   background-color: var(--icon-secondary-color);
   color: var(--white-primary-color);
+  outline: none;
 }
 
-.footer-socials .socials-icon-thumb:hover {
+.footer-socials .socials-icon-thumb:hover,
+.footer-socials .socials-icon-thumb:focus {
   background-color: var(--accent-color);
 }
 
@@ -528,9 +529,11 @@ svg {
   color: var(--icon-primary-color);
 }
 
-.team-socials .socials-icon-thumb:hover {
+.team-socials .socials-icon-thumb:hover,
+.team-socials .socials-icon-thumb:focus {
   background-color: var(--accent-color);
   color: var(--white-primary-color);
+  outline: none;
 }
 /* END section our team */
 
@@ -553,9 +556,12 @@ svg {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  outline: none;
 }
 
-.company-icon-thumb:hover {
+.company-icon-thumb:hover,
+.company-icon-thumb:focus {
   border-color: var(--accent-color);
 }
 
@@ -563,7 +569,8 @@ svg {
   fill: var(--icon-primary-color);
 }
 
-.company-icon-thumb:hover > .icon {
+.company-icon-thumb:hover > .icon,
+.company-icon-thumb:focus > .icon {
   fill: var(--accent-color);
 }
 /* END section regular customers */
