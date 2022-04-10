@@ -148,6 +148,8 @@ svg {
 .button.secondary:focus {
   background-color: var(--accent-color);
   color: var(--white-primary-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /* =========== */
@@ -155,7 +157,7 @@ svg {
 /* =========== */
 
 /* ============ */
-/* social ocons */
+/* social icons */
 /* ============ */
 
 .socials {
@@ -181,7 +183,7 @@ svg {
 }
 
 /* ================ */
-/* END social ocons */
+/* END social icons */
 /* ================ */
 
 /* ==== */
@@ -490,6 +492,8 @@ svg {
   border-radius: 0px 0px 4px 4px;
 
   background-color: var(--white-primary-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .team-list .image-caption {
@@ -595,6 +599,11 @@ svg {
   width: calc(100% / 3 - var(--gutter));
   margin-top: var(--gutter);
   margin-left: var(--gutter);
+}
+
+.portfolio-list > .item:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio-list .link {
